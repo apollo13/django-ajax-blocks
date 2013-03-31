@@ -36,7 +36,7 @@ def render_partial(template, context, ajax_blocks):
     for template in templates:
         extends_node = find_extends_node(template.nodelist)
         if extends_node:
-            block_context.add_blocks(extends_node.block)
+            block_context.add_blocks(extends_node.blocks)
         else: # Root template
             blocks = dict([(n.name, n) for n in
                            template.nodelist.get_nodes_by_type(BlockNode)])
