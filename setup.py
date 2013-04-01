@@ -12,7 +12,7 @@ setup(
     name='django-ajax-blocks',
     description='Partial page loads with AJAX',
     long_description=read('README.rst'),
-    version='0.1a1',
+    version='0.1a2',
     url='http://github.com/apollo13/django-ajax-blocks',
     author='Florian Apolloner',
     author_email='florian@apolloner.eu',
